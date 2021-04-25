@@ -1,0 +1,11 @@
+.address > a {
+  color: var(--main-color);
+  text-decoration: none;
+  margin-top: 20px;
+  display: flex;
+  transition: color var(--animation);
+}
+.address > a:hover,
+.address > a:focus {
+  color: var(--brend-color);
+}

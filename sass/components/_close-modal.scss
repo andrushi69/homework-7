@@ -1,0 +1,21 @@
+.close {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+.close:hover .close-svg,
+.close:focus .close-svg {
+  fill: var(--brend-color);
+}
+.close-svg {
+  width: 11px;
+  height: 11px;
+  transition: fill var(--animation);
+}

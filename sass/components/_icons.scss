@@ -1,0 +1,62 @@
+.modal-icons {
+  display: inline-block;
+  position: absolute;
+  top: 107px;
+  left: 53px;
+  width: 18px;
+  height: 18px;
+  transition: fill var(--animation);
+}
+.modal-icons:hover,
+.modal-icons:focus {
+  fill: var(--brend-color);
+}
+.modal-icons-2 {
+  display: inline-block;
+  position: absolute;
+  top: 179px;
+  left: 53px;
+  width: 18px;
+  height: 18px;
+  transition: fill var(--animation);
+}
+.modal-icons-2:hover,
+.modal-icons-2:focus {
+  fill: var(--brend-color);
+}
+.clients-list .clients-icons,
+.clients-icons-2,
+.clients-icons-3,
+.clients-icons-4,
+.clients-icons-5,
+.clients-icons-6 {
+  width: 44px;
+  height: 50px;
+  fill: #afb1b8;
+  transition: fill var(--animation);
+}
+
+.clients-list .clients-icons-2 {
+  width: 40px;
+  height: 52px;
+}
+
+.clients-list .clients-icons-3 {
+  width: 41px;
+  height: 42px;
+}
+
+.clients-list .clients-icons-4 {
+  width: 80px;
+  height: 42px;
+}
+
+.clients-list .clients-icons-5 {
+  width: 59px;
+  height: 47px;
+}
+
+.clients-list .clients-icons-6 {
+  width: 88px;
+  height: 45px;
+}

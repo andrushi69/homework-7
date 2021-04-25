@@ -1,0 +1,30 @@
+.checkbox {
+  display: flex;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  justify-content: center;
+  margin-bottom: 30px;
+  color: var(--other-text-color);
+}
+.check {
+  padding-left: 1.4em;
+}
+.check-box {
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 15px;
+  background-image: url(../svg/images-svg/checkbox-vector.svg);
+  margin-left: -1.4em;
+  margin-top: 4px;
+  cursor: pointer;
+  transition: background-image var(--animation);
+}
+
+.check-span {
+  text-decoration-line: underline;
+  color: var(--brend-color);
+  cursor: pointer;
+}
