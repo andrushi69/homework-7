@@ -1,0 +1,36 @@
+.main-section {
+  background-color: #2f303a;
+  color: var(--main-color);
+  height: 600px;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/bgi-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.section {
+  padding-top: 94px;
+}
+.team-section {
+  padding-bottom: 96px;
+  padding-top: 94px;
+  background-color: var(--background-color);
+}
+.about-us-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.main-portfolio-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.clients-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}

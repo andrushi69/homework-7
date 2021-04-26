@@ -4,18 +4,19 @@
   font-weight: bold;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  cursor: pointer;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   margin: 0 auto;
-  display: block;
   padding: 10px 32px;
   transition: background-color var(--animation);
   outline: none;
-}
-.button:hover,
-.button:focus {
-  background-color: var(--alternative-color);
+
+  &:hover {
+    background-color: var(--alternative-color);
+  }
+  &:focus {
+    background-color: var(--alternative-color);
+  }
 }
 .modal button {
   display: block;
@@ -24,31 +25,23 @@
   color: var(--main-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  transition: background-color var(--animation);
   font-weight: bold;
-  font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.06em;
-  cursor: pointer;
   margin: 0 auto;
-  transition: background-color var(--animation);
+
+  &:hover {
+    background-color: var(--alternative-color);
+  }
+  &:focus {
+    background-color: var(--alternative-color);
+  }
 }
-.modal button:hover,
-.modal button:focus {
-  background-color: var(--alternative-color);
-}
-.button-section {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-  margin-top: 0;
-  padding: 0;
-}
-.button-2 {
+.button-list .button-2 {
   font-weight: 500;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  cursor: pointer;
   transition-property: background, color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -59,19 +52,25 @@
   margin-right: 8px;
   border: none;
   outline: none;
-}
-.button-2:hover,
-.button-2:focus {
-  background: var(--brend-color);
-  color: var(--main-color);
-  transform: translateY(0);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+
+  &:hover {
+    background: var(--brend-color);
+    color: var(--main-color);
+    transform: translateY(0);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
+  &:focus {
+    background: var(--brend-color);
+    color: var(--main-color);
+    transform: translateY(0);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
 }
 .submit-button {
   padding: 10px 28px;
   background-color: var(--brend-color);
-  cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-weight: bold;

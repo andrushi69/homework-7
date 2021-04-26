@@ -1,62 +1,27 @@
-.header-list {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+.button-list {
   list-style-type: none;
   display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 0;
   padding: 0;
-  margin: 0 0 0 93px;
 }
-.list-items {
-  margin-left: 30px;
-  margin-top: 0px;
-  flex-basis: calc((100% - 120px) / 4);
-}
-.list-items::before {
-  content: "";
-  height: 120px;
-  display: block;
-  background-color: var(--background-color);
-  border-radius: 4px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.workers-list {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-  margin-top: 50px;
-  margin-left: 30px;
 
-  flex-basis: calc((100% - 120px) / 4);
+.list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin-left: -30px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
-.clients-list {
+
+.team-list {
+  list-style-type: none;
   display: flex;
   padding: 0;
   margin-top: -50px;
   margin-left: -30px;
   margin-bottom: 0;
-}
-.list-info {
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  fill: rgba(255, 255, 255, 0.6);
-  list-style-type: none;
-  padding-left: 0;
-  margin: 0;
-}
-.portfolio-list {
-  margin-top: 34px;
-  margin-left: 30px;
-  flex-basis: calc((100% - 90px) / 3);
-  position: relative;
-  overflow: hidden;
-}
-.portfolio-list:hover,
-.portfolio-list:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
 }

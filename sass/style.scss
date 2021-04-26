@@ -1,38 +1,38 @@
 @import "./utils/variables";
+@import "./base/fonts";
 @import "./base/common";
 @import "./base/container";
+
 @import "./components/button";
-@import "./components/section";
 @import "./components/title";
-@import "./components/link";
+@import "./components/name";
+@import "./components/form";
 @import "./components/social-icons";
-@import "./components/close-modal";
-@import "./components/icons";
-@import "./components/input";
 @import "./components/modal";
-@import "./components/image";
-@import "./components/backdrop";
-@import "./components/textarea";
-@import "./components/list";
-@import "./components/clients";
-@import "./components/checkbox";
+@import "./components/highlight";
+@import "./components/clients-link";
+@import "./components/clients-list";
 @import "./components/description";
-@import "./components/form&label";
-@import "./components/address";
+@import "./components/modal-icons";
+@import "./components/label";
+@import "./components/check";
+@import "./components/textarea";
+@import "./components/items";
+@import "./components/close";
+@import "./components/input";
+@import "./components/list";
+@import "./components/link";
+@import "./components/link-with-icons";
 
-.highlight {
-  color: var(--brend-color);
+@import "./layouts/section";
+@import "./layouts/about";
+@import "./layouts/header";
+@import "./layouts/footer";
+@import "./layouts/info";
+@import "./layouts/catalog";
+
+.team-image {
+  border-radius: 0px;
 }
 
-.profession {
-  line-height: 1.18;
-  letter-spacing: 0.03em;
-  text-align: center;
-  margin: 0;
-  margin-top: 5px;
-}
-
-.subscribe {
-  margin-left: 93px;
-  width: 50%;
-}
+/*# sourceMappingURL=style.css.map */

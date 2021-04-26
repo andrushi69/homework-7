@@ -1,78 +1,17 @@
-.main-link {
-  text-decoration: none;
-}
-.link-studio {
-  text-decoration: none;
-  margin-right: 50px;
-  position: relative;
-}
-.link-studio::after {
-  position: absolute;
-  content: "";
-  display: block;
-  width: 100%;
-  height: 4px;
-  bottom: -33px;
-  border-radius: 2px;
-  background-color: var(--brend-color);
-}
 .link {
-  text-decoration: none;
   color: var(--main-text-color);
   margin-right: 50px;
   transition: color var(--animation);
+
+  &:hover {
+    color: var(--brend-color);
+  }
+  &:focus {
+    color: var(--brend-color);
+  }
 }
-.link:hover,
-.link:focus {
-  color: var(--brend-color);
-}
-.link-with-icons {
-  margin-left: 254px;
+.main-links {
   display: flex;
-}
-.link-with-icons .icon {
-  width: 16px;
-  height: 12px;
-  fill: var(--other-text-color);
-  margin-right: 10px;
-  transition: color, fill var(--animation);
-}
-.link-with-icons .icon-2 {
-  width: 10px;
-  height: 16px;
-  fill: var(--other-text-color);
-  margin-right: 10px;
-  transition: color, fill var(--animation);
-}
-.link-with-item {
-  color: var(--other-text-color);
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  transition: color var(--animation);
-}
-.link-with-item:hover .icon,
-.link-with-item:focus .icon {
-  fill: var(--brend-color);
-}
-.link-with-item:hover,
-.link-with-item:focus {
-  color: var(--brend-color);
-}
-.link-with-item:hover .icon-2,
-.link-with-item:focus .icon-2 {
-  fill: var(--brend-color);
-}
-.link-with-icons > .link-with-item:not(:last-child) {
-  margin-right: 30px;
-}
-.social-icons-link:hover,
-.social-icons-link:focus {
-  background: var(--brend-color);
-}
-.social-icons-link:hover .icons,
-.social-icons-link:focus .icons {
-  fill: var(--main-color);
 }
 .social-icons-link {
   display: flex;
@@ -83,53 +22,17 @@
   align-items: center;
   border-radius: 50%;
   transition: background var(--animation);
-}
-.clients-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 90px;
-}
-.clients-link:hover .clients-icons,
-.clients-link:focus .clients-icons {
-  fill: var(--brend-color);
-}
-.clients-link:hover .clients-icons-2,
-.clients-link:focus .clients-icons-2 {
-  fill: var(--brend-color);
-}
-.clients-link:hover .clients-icons-3,
-.clients-link:focus .clients-icons-3 {
-  fill: var(--brend-color);
-}
-.clients-link:hover .clients-icons-5,
-.clients-link:focus .clients-icons-5 {
-  fill: var(--brend-color);
-}
-.clients-link:hover .clients-icons-6,
-.clients-link:focus .clients-icons-6 {
-  fill: var(--brend-color);
-}
-.clients-link:hover .clients-icons-4,
-.clients-link:focus .clients-icons-4 {
-  fill: var(--brend-color);
-}
-.footer-link {
-  text-decoration: none;
-}
-.links-footer {
-  margin-bottom: 9px;
-  margin-top: 9px;
-}
-.links-footer > a {
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.6);
-  transition: color var(--animation);
-}
-.links-footer > a:hover,
-.links-footer > a:focus {
-  color: var(--brend-color);
-}
-.main-links {
-  display: flex;
+
+  &:hover {
+    background: var(--brend-color);
+  }
+  &:focus {
+    background: var(--brend-color);
+  }
+  &:hover .icons {
+    fill: var(--main-color);
+  }
+  &:focus .icons {
+    fill: var(--main-color);
+  }
 }

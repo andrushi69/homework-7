@@ -1,4 +1,4 @@
-.close {
+.close__link {
   position: absolute;
   display: flex;
   align-items: center;
@@ -9,12 +9,16 @@
   height: 30px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
+
+  &:hover .close__svg {
+    fill: var(--brend-color);
+  }
+  &:focus .close__svg {
+    fill: var(--brend-color);
+  }
 }
-.close:hover .close-svg,
-.close:focus .close-svg {
-  fill: var(--brend-color);
-}
-.close-svg {
+
+.close__svg {
   width: 11px;
   height: 11px;
   transition: fill var(--animation);

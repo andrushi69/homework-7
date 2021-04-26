@@ -1,0 +1,14 @@
+.about-us-list {
+  list-style-type: none;
+  display: flex;
+  margin-left: -30px;
+  margin-top: -50px;
+  padding: 0;
+  margin-bottom: 0;
+}
+.about-us-item {
+  margin-left: 30px;
+  margin-top: 50px;
+  flex-basis: calc((100% - 90px) / 3);
+  position: relative;
+}

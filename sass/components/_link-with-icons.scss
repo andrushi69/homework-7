@@ -1,0 +1,23 @@
+.link-with-icons {
+  margin-left: 254px;
+  display: flex;
+
+  .icon {
+    width: 16px;
+    height: 12px;
+    fill: var(--other-text-color);
+    margin-right: 10px;
+    transition: color, fill var(--animation);
+  }
+  .icon-2 {
+    width: 10px;
+    height: 16px;
+    fill: var(--other-text-color);
+    margin-right: 10px;
+    transition: color, fill var(--animation);
+  }
+}
+
+.link-with-icons > .link-with-item:not(:last-child) {
+  margin-right: 30px;
+}

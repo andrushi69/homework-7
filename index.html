@@ -17,14 +17,14 @@
     />
   </head>
   <body>
-    <header class="main-container">
+    <header class="header">
       <div class="container">
-        <nav class="navigation-container">
-          <a class="main-link" href=""
+        <nav class="header-navigation">
+          <a  href=""
             ><span class="title">Web</span
             ><span class="title-2">Studio</span></a
           >
-          <ul class="header-list">
+          <ul class="header__list">
             <li>
               <a class="link-studio highlight" href="index.html">Студия</a>
             </li>
@@ -53,7 +53,7 @@
     <main>
       <section class="main-section">
         <div class="container">
-          <h1 class="main-title">
+          <h1 class="main-name">
             Эффективные решения <br />
             для вашего бизнеса
           </h1>
@@ -63,9 +63,9 @@
         </div>
         <div class="backdrop is-hidden" data-modal>
           <div class="modal">
-            <h1 class="modal-title">Оставьте свои данные, мы вам перезвоним</h1>
-            <a href="" data-modal-close class="close">
-              <svg class="close-svg">
+            <h1 class="modal__name">Оставьте свои данные, мы вам перезвоним</h1>
+            <a class="close__link" href="" data-modal-close>
+              <svg class="close__svg">
                 <use href="./svg/modal-icons.svg#icon-vector"></use>
               </svg>
             </a>
@@ -143,36 +143,36 @@
         </div>
       </section>
 
-      <section class="second-section">
+      <section class="section">
         <div class="container">
-          <ul class="list-section">
+          <ul class="list">
             <li class="list-items">
-              <h3 class="description-section-title">Внимание к деталям</h3>
-              <p class="description-section">
+              <h3 class="list-name">Внимание к деталям</h3>
+              <p class="list-description">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции
               </p>
             </li>
 
             <li class="list-items">
-              <h3 class="description-section-title">Пунктуальность</h3>
-              <p class="description-section">
+              <h3 class="list-name">Пунктуальность</h3>
+              <p class="list-description">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
 
             <li class="list-items">
-              <h3 class="description-section-title">Планирование</h3>
-              <p class="description-section">
+              <h3 class="list-name">Планирование</h3>
+              <p class="list-description">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
 
             <li class="list-items">
-              <h3 class="description-section-title">Современные технологии</h3>
-              <p class="description-section">
+              <h3 class="list-name">Современные технологии</h3>
+              <p class="list-description">
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
@@ -181,61 +181,61 @@
         </div>
       </section>
 
-      <section class="penultimate-section">
+      <section class="about-us-section">
         <div class="container">
-          <h2 class="section-titles">Чем мы занимаемся</h2>
+          <h2 class="section-name">Чем мы занимаемся</h2>
 
-          <ul class="third-section-list">
-            <li class="image-1">
+          <ul class="about-us-list">
+            <li class="about-us-item">
               <img
                 src="./images/box-1.jpg"
                 width="370"
                 alt="человек пишет коды"
               />
               <div class="label">
-                <p class="label-title">Десктопные приложения</p>
+                <p class="label-name">Десктопные приложения</p>
               </div>
             </li>
 
-            <li class="image-1">
+            <li class="about-us-item">
               <img
                 src="./images/box-2.jpg"
                 width="370"
                 alt="телефон и ноутбук"
               />
               <div class="label">
-                <p class="label-title">Мобильные приложения</p>
+                <p class="label-name">Мобильные приложения</p>
               </div>
             </li>
-            <li class="image-1">
+            <li class="about-us-item">
               <img
                 src="./images/box-3.jpg"
                 width="370"
                 alt="илюстрация на планшете"
               />
               <div class="label">
-                <p class="label-title">Дизайнерские решения</p>
+                <p class="label-name">Дизайнерские решения</p>
               </div>
             </li>
           </ul>
         </div>
       </section>
 
-      <section class="profession-section">
+      <section class="team-section">
         <div class="container">
-          <h2 class="section-titles">Наша команда</h2>
+          <h2 class="team-name">Наша команда</h2>
 
-          <ul class="proffession-section-list">
-            <li class="workers-list">
+          <ul class="team-list">
+            <li class="team-items">
               <img
-                class="proffessionalists-images"
+                class="team-image"
                 src="./images/img-1.jpg"
                 width="270"
                 alt="Product Designer"
               />
-              <div class="profession-description">
-                <h3 class="names-section">Игорь Демьяненко</h3>
-                <p class="profession">Product Designer</p>
+              <div class="team-info">
+                <h3 class="team-names">Игорь Демьяненко</h3>
+                <p class="team-description">Product Designer</p>
 
                 <ul class="social-icons">
                   <li class="social-icons-item">
@@ -290,16 +290,16 @@
               </div>
             </li>
 
-            <li class="workers-list">
+            <li class="team-items">
               <img
-                class="proffessionalists-images"
+                class="team-image"
                 src="./images/img-2.jpg"
                 width="270"
                 alt="Frontend Developer"
               />
-              <div class="profession-description">
-                <h3 class="names-section">Ольга Репина</h3>
-                <p class="profession">Frontend Developer</p>
+              <div class="team-info">
+                <h3 class="team-names">Ольга Репина</h3>
+                <p class="team-description">Frontend Developer</p>
                 <ul class="social-icons">
                   <li class="social-icons-item">
                     <a
@@ -353,16 +353,16 @@
               </div>
             </li>
 
-            <li class="workers-list">
+            <li class="team-items">
               <img
-                class="proffessionalists-images"
+                class="team-image"
                 src="./images/img-3.jpg"
                 width="270"
                 alt="Marketing"
               />
-              <div class="profession-description">
-                <h3 class="names-section">Николай Тарасов</h3>
-                <p class="profession">Marketing</p>
+              <div class="team-info">
+                <h3 class="team-names">Николай Тарасов</h3>
+                <p class="team-description">Marketing</p>
                 <ul class="social-icons">
                   <li class="social-icons-item">
                     <a
@@ -416,16 +416,16 @@
               </div>
             </li>
 
-            <li class="workers-list">
+            <li class="team-items">
               <img
-                class="proffessionalists-images"
+                class="team-image"
                 src="./images/img-4.jpg"
                 width="270"
                 alt="UI Designer"
               />
-              <div class="profession-description">
-                <h3 class="names-section">Михаил Ермаков</h3>
-                <p class="profession">UI Designer</p>
+              <div class="team-info">
+                <h3 class="team-names">Михаил Ермаков</h3>
+                <p class="team-description">UI Designer</p>
                 <ul class="social-icons">
                   <li class="social-icons-item">
                     <a
@@ -482,44 +482,44 @@
         </div>
       </section>
     </main>
-    <section class="clients">
+    <section class="clients-section">
       <div class="container">
-        <h2 class="section-titles">Постоянные клиенты</h2>
+        <h2 class="section-name">Постоянные клиенты</h2>
         <ul class="clients-list">
-          <li class="clients-box">
+          <li class="clients-item">
             <a class="clients-link" href="">
               <svg class="clients-icons">
                 <use href="./svg/sprite.svg#icon-logo"></use>
               </svg>
             </a>
           </li>
-          <li class="clients-box">
+          <li class="clients-item">
             <a class="clients-link" href="">
               <svg class="clients-icons-2">
                 <use href="./svg/sprite.svg#icon-logo-2"></use>
               </svg>
             </a>
           </li>
-          <li class="clients-box">
+          <li class="clients-item">
             <a class="clients-link" href="">
               <svg class="clients-icons-3">
                 <use href="./svg/sprite.svg#icon-logo-3"></use>
               </svg>
             </a>
           </li>
-          <li class="clients-box">
+          <li class="clients-item">
             <a class="clients-link" href=""
               ><svg class="clients-icons-4">
                 <use href="./svg/sprite.svg#icon-logo-4"></use></svg
             ></a>
           </li>
-          <li class="clients-box">
+          <li class="clients-item">
             <a class="clients-link" href=""
               ><svg class="clients-icons-5">
                 <use href="./svg/sprite.svg#icon-logo-5"></use></svg
             ></a>
           </li>
-          <li class="clients-box">
+          <li class="clients-item">
             <a class="clients-link" href=""
               ><svg class="clients-icons-6">
                 <use href="./svg/sprite.svg#icon-logo-6"></use></svg
@@ -529,30 +529,30 @@
       </div>
     </section>
 
-    <footer class="main-last-section">
+    <footer class="footer">
       <div class="container">
         <address class="main-links">
-          <ul class="list-info">
+          <ul class="footer-list">
             <a class="footer-link" href=""
               ><span class="title">Web</span
               ><span class="title-studio-footer">Studio</span>
             </a>
-            <li class="address">
+            <li class="footer-item-address">
               <a href="https://goo.gl/maps/7uVj58UBJkN4F8YU9"
                 >г. Киев, пр-т Леси Украинки, 26</a
               >
             </li>
-            <li class="links-footer">
+            <li class="footer-item">
               <a href="mailto:info@example.com">info@example.com </a>
             </li>
-            <li class="links-footer">
+            <li class="footer-item">
               <a href="tel:+380991111111">+38 099 111 11 11</a>
             </li>
           </ul>
           <div class="footer-social-icons">
-            <p class="footer-social-title">Присоединяйтесь</p>
+            <p class="footer-social-name">Присоединяйтесь</p>
             <ul class="social-footer-icons">
-              <li class="social-footer-icons-list">
+              <li class="social-footer-icons-item">
                 <a
                   href=""
                   class="social-networks-icons"
@@ -564,7 +564,7 @@
                   </svg>
                 </a>
               </li>
-              <li class="social-footer-icons-list">
+              <li class="social-footer-icons-item">
                 <a
                   href=""
                   class="social-networks-icons"
@@ -576,7 +576,7 @@
                   </svg>
                 </a>
               </li>
-              <li class="social-footer-icons-list">
+              <li class="social-footer-icons-item">
                 <a
                   href=""
                   class="social-networks-icons"
@@ -588,7 +588,7 @@
                   </svg>
                 </a>
               </li>
-              <li class="social-footer-icons-list">
+              <li class="social-footer-icons-item">
                 <a
                   href=""
                   class="social-networks-icons"
@@ -602,8 +602,8 @@
               </li>
             </ul>
           </div>
-          <div class="subscribe">
-            <p class="footer-social-title">Подпишитесь на рассылку</p>
+          <div class="footer-email-subscribe">
+            <p class="footer-social-name">Подпишитесь на рассылку</p>
             <form>
               <label class="label-footer" for="email">
                 <input

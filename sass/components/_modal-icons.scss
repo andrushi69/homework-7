@@ -1,0 +1,52 @@
+.modal-icons {
+  display: inline-block;
+  position: absolute;
+  top: 107px;
+  left: 53px;
+  width: 18px;
+  height: 18px;
+  transition: fill var(--animation);
+
+  &:hover {
+    fill: var(--brend-color);
+  }
+  &:focus {
+    fill: var(--brend-color);
+  }
+}
+
+.modal-icons-2 {
+  display: inline-block;
+  position: absolute;
+  top: 179px;
+  left: 53px;
+  width: 18px;
+  height: 18px;
+  transition: fill var(--animation);
+
+  &:hover {
+    fill: var(--brend-color);
+  }
+  &:focus {
+    fill: var(--brend-color);
+  }
+}
+.modal-icons-3 {
+  display: inline-block;
+  position: absolute;
+  top: 251px;
+  left: 53px;
+  width: 18px;
+  height: 18px;
+  transition: fill var(--animation);
+  &:hover,
+  &:focus {
+    fill: var(--brend-color);
+  }
+}
+.modal-inputs {
+  color: var(--other-text-color);
+  padding-left: 40px;
+  padding-right: 40px;
+}
+

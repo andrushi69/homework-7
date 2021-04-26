@@ -1,0 +1,39 @@
+.form-input {
+  margin-top: 4px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  padding-left: 42px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  transition: border var(--animation);
+
+  &:hover {
+    border: 1px solid var(--brend-color);
+    outline: none;
+  }
+  &:focus {
+    border: 1px solid var(--brend-color);
+    outline: none;
+  }
+  &:hover ~ .modal-icons {
+    fill: var(--brend-color);
+  }
+  &:focus ~ .modal-icons {
+    fill: var(--brend-color);
+  }
+  &:hover ~ .modal-icons-2 {
+    fill: var(--brend-color);
+  }
+  &:focus ~ .modal-icons-2 {
+    fill: var(--brend-color);
+  }
+  &:hover ~ .modal-icons-3 {
+    fill: var(--brend-color);
+  }
+  &:focus ~ .modal-icons-3 {
+    fill: var(--brend-color);
+  }
+}

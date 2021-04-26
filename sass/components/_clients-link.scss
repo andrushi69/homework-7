@@ -1,0 +1,43 @@
+.clients-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+
+  &:hover .clients-icons {
+    fill: var(--brend-color);
+  }
+  &:focus .clients-icons {
+    fill: var(--brend-color);
+  }
+  &:hover .clients-icons-2 {
+    fill: var(--brend-color);
+  }
+  &:focus .clients-icons-2 {
+    fill: var(--brend-color);
+  }
+  &:hover .clients-icons-3 {
+    fill: var(--brend-color);
+  }
+  &:focus .clients-icons-3 {
+    fill: var(--brend-color);
+  }
+  &:hover .clients-icons-4 {
+    fill: var(--brend-color);
+  }
+  &:focus .clients-icons-4 {
+    fill: var(--brend-color);
+  }
+  &:hover .clients-icons-5 {
+    fill: var(--brend-color);
+  }
+  &:focus .clients-icons-5 {
+    fill: var(--brend-color);
+  }
+  &:hover .clients-icons-6 {
+    fill: var(--brend-color);
+  }
+  &:focus .clients-icons-6 {
+    fill: var(--brend-color);
+  }
+}

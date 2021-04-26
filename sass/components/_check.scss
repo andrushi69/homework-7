@@ -7,9 +7,11 @@
   margin-bottom: 30px;
   color: var(--other-text-color);
 }
+
 .check {
   padding-left: 1.4em;
 }
+
 .check-box {
   position: absolute;
   background-size: contain;
@@ -26,5 +28,12 @@
 .check-span {
   text-decoration-line: underline;
   color: var(--brend-color);
+  cursor: pointer;
+}
+.checkbox > input {
+  width: 16px;
+  height: 15px;
+  margin: 0;
+  margin-right: 8.38px;
   cursor: pointer;
 }
